@@ -1,0 +1,5 @@
+1.
+python3 -m venv ~/.weekone
+
+2. activate
+source  ~/.weekone/bin/activate
