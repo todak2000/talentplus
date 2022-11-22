@@ -65,9 +65,14 @@ Run the command below to update the dependencies as `ngin-ingress` has been adde
 $ helm dependency update ./ingress/
 $ helm install -f my-ingress.yaml ingress ./ingress
 $ helm list
-$ kubectl get deployments
+$ kubectl get services
+
 
 ```
+
+You should have all services running as the image below
+
+<img width="854" alt="Screen Shot 2022-11-23 at 12 46 47 AM" src="https://user-images.githubusercontent.com/26861798/203443610-16792996-c6fb-4256-88a7-0e799be4769f.png">
 
 ## Author
 
