@@ -1,0 +1,6 @@
+app:
+  name: app-fe
+  group: frontend
+  container:
+    image: todak2000/talentplusfrontend:latest
+    port: 80

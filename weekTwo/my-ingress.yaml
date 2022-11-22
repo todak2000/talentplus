@@ -1,0 +1,12 @@
+ingress:
+  hosts:
+    - host: app.example.com
+      paths: 
+        - path: /api/
+          backend:
+            serviceName: app-be
+            servicePort: 8080
+        - path: /
+          backend:
+            serviceName: app-fe
+            servicePort: 80

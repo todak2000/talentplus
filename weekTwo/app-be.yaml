@@ -1,0 +1,10 @@
+app:
+  name: app-be
+  group: backend
+  container:
+    image: todak2000/talentplusbackend:latest
+    config:
+      - name: postgres-config
+    env: 
+      - key: DB_SERVER
+        value: postgres
